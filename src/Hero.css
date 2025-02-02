@@ -1,0 +1,33 @@
+.hero-gradient {
+  background: linear-gradient(135deg, #6e8efb, #4a6cf7);
+  height: 100vh;
+}
+
+.display-3 {
+  display: inline-block;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+header .logo h3 {
+  font-weight: bold;
+  padding-left: 560px;
+}
+
+header nav ul {
+  gap: 20px; /* Adjust spacing between nav items */
+}
+
+header nav a {
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #6e8efb; /* Change color on hover */
+}
